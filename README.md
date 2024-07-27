@@ -46,7 +46,7 @@ Feature Engineering: The two dataframes were merged on the ‘recipe_name’ col
 ![Ratings Trend by Month ](./trends.png)
 
 
-![Top 10 Recipes](.top5recipes.png)
+![Top 10 Recipes](./top5recipes.png)
 
 
 

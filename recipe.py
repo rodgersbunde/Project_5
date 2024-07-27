@@ -1,15 +1,15 @@
 import streamlit as st
 from surprise import Dataset, Reader, SVD
 import pandas as pd
-import openai
+# import openai
 import asyncio
 from functools import lru_cache
-import os
+# import os
 import numpy as np
 
 # Ensure the OpenAI API key is set in your environment variables
-api_key = os.getenv('OPENAI_API_KEY')
-openai.api_key = api_key
+# api_key = os.getenv('OPENAI_API_KEY')
+# openai.api_key = api_key
 
 # Load the dataset
 df = pd.read_csv('final_data.csv')
@@ -51,7 +51,7 @@ def streamlit_app():
         st.write('Use the navigation on the left to explore.')
     elif page == 'About':
         st.write('This app helps you search for recipes.')
-        st.write('The app returns recipes based on search terms. If a recipe name is not found, it will generate a new recipe.')
+        st.write('The app returns recipes based on ingredients. If a ingredints is not found, it  will return No recipes found with the given ingredients.')
         st.write('It uses a machine learning model to recommend recipes based on your input.')
     elif page == 'Search':
         st.title('Recipe Search')

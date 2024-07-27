@@ -40,13 +40,13 @@ Data Cleaning: The data cleaning process involved four main steps which checked 
 Feature Engineering: The two dataframes were merged on the ‘recipe_name’ column. The ‘stars’ column was renamed to ‘ratings’. A new ‘month’ column was created from the ‘created_at’ column. An ‘average_rating’ column was created with the calculated mean value of the ‘ratings’ column.
 
 
-![Distribution of Recipe Ratings](./Charts/ratings.png)
+![Distribution of Recipe Ratings](./ratings.png)
 
 
-![Ratings Trend by Month ](./Charts/trend.png)
+![Ratings Trend by Month ](./trends.png)
 
 
-![Top 10 Recipes](./Charts/top10.png)
+![Top 10 Recipes](.top5recipes.png)
 
 
 

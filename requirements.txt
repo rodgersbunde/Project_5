@@ -1,5 +1,9 @@
 streamlit==1.35.0
 surprise
 pandas
+<<<<<<< HEAD
 numpy>2
+=======
+numpy<2
+>>>>>>> e110e82cafc72570a6d292d3b42399703acfa4d7
 functools

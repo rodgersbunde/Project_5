@@ -6,5 +6,6 @@ imbalanced-learn
 plotly
 scikit-surprise
 openai
+ratelimit
 
 

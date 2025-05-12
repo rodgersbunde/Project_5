@@ -4,3 +4,5 @@ pandas
 scikit-learn
 imbalanced-learn
 plotly
+scikit-surprise
+

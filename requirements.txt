@@ -7,5 +7,7 @@ plotly
 scikit-surprise
 openai
 ratelimit
+python-dotenv
+
 
 
